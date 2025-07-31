@@ -34,12 +34,6 @@ boxes.forEach((box) => {
 
 const checkWinner = () => {
   for (let pattern of winPatterns) {
-    // console.log(pattern[0], pattern[1], pattern[2]);
-    // console.log(
-    //   boxes[pattern[0]].innertext,
-    //   boxes[pattern[1]].innertext,
-    //   boxes[pattern[2]].innertext
-    // );
     let pos1Val = boxes[pattern[0]].innertext;
     let pos2Val = boxes[pattern[1]].innertext;
     let pos3Val = boxes[pattern[2]].innertext;

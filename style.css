@@ -31,7 +31,7 @@ body {
   color: #b0413e;
   background-color: #ffffc7;
 }
-#rst-btn {
+#reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
   background-color: #191913;
@@ -52,7 +52,12 @@ body {
   font-size: 5vmin;
 }
 .msg-container{
-  height:30vmin ;
+  height:100vmin ;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
 .hide{
   display: none;

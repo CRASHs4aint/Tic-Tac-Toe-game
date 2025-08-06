@@ -33,7 +33,7 @@ boxes.forEach((box) => {
     } else {
       //player X
       box.innerText = "X";
-      box.style.color="blue";
+      box.style.color = "blue";
       turno = true;
     }
     box.disabled = true;
@@ -48,11 +48,10 @@ const disableBoxes = () => {
   }
 };
 
-
-  const enableBoxes = () => {
+const enableBoxes = () => {
   for (let box of boxes) {
     box.disabled = false;
-    box.innerText="";
+    box.innerText = "";
   }
 };
 const showWinner = (winner) => {
@@ -77,5 +76,5 @@ const checkWinner = () => {
   }
 };
 
-newGamebtn.addEventListener("click",resetGame);
-resetbtn.addEventListener("click",resetGame);
+newGamebtn.addEventListener("click", resetGame);
+resetbtn.addEventListener("click", resetGame);
